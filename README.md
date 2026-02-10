@@ -1,93 +1,110 @@
-# IRIS Landing Page v2
+# Autonomous System Development Platform 🚀  
+**AI-Driven Intelligence • Embedded Control • Custom Hardware**
 
-A cinematic, single-page product landing website for **IRIS Smartglasses**, built with Next.js, TypeScript, Tailwind CSS, and GSAP.
+---
 
-## What This Folder Contains
+## Project Overview  
+This repository represents a **complete autonomous system prototype**, developed as a multidisciplinary engineering project integrating **Artificial Intelligence**, **embedded firmware**, **custom PCB hardware**, **application-level UI/UX**, and **mechanical enclosure design**.
 
-- A full Next.js App Router project for the IRIS marketing landing page.
-- Rich media assets (videos/images) used in hero and feature sections.
-- Animated scroll reveals and parallax effects powered by GSAP + ScrollTrigger.
-- A minimal API route at `/api` for backend extension.
-- Prisma setup (SQLite schema) available for future data features.
+The project was executed in a **team-based environment (5 members)** with a strong focus on real-world system design practices, including modular architecture, hardware–software co-design, and scalable development.
 
-## Tech Stack
+The aim was not only to build a functional autonomous system, but to design it the way **industry-grade autonomous platforms** are actually engineered.
 
-- Next.js 16 (App Router)
-- React 19 + TypeScript
-- Tailwind CSS 4
-- GSAP (animations)
-- Prisma (SQLite-ready schema)
+---
 
-## Prerequisites
+## Vision & Motivation 🌍  
+Autonomous systems are complex cyber-physical products that require seamless interaction between:
 
-- Node.js `20.x` (or newer LTS)
-- npm `10+`
+- Intelligent decision-making algorithms  
+- Real-time embedded control  
+- Robust and reliable custom electronics  
+- Human–machine interaction interfaces  
+- Mechanical protection and form factor design  
 
-## How To Run Locally
+This project was initiated to **bridge the gap between theoretical knowledge and practical system deployment**, simulating a real product development workflow from concept to prototype.
 
-1. Install dependencies:
+---
 
-```bash
-npm install
-```
+## Key Objectives 🎯  
 
-2. Start development server:
+- Design a **modular and scalable autonomous system architecture**
+- Develop **AI/ML-based perception and decision-making**
+- Implement **embedded firmware** for real-time system control
+- Design a **custom prototype PCB** tailored to system requirements
+- Build an **application-level UI/UX** for monitoring and interaction
+- Design a **mechanical casing** using SolidWorks for physical deployment
+- Practice **technical leadership, system integration, and documentation**
 
-```bash
-npm run dev
-```
+---
 
-3. Open:
+## System Architecture 🧩  
 
-`http://localhost:3000`
+The system is divided into well-defined layers that work together as a single autonomous platform:
 
-## Production Build
+1. **AI / ML Layer**  
+   Handles perception, inference, and high-level decision-making.
 
-1. Build:
+2. **Firmware Layer**  
+   Responsible for sensor interfacing, actuator control, communication protocols, and real-time execution.
 
-```bash
-npm run build
-```
+3. **Hardware Layer (PCB)**  
+   Custom-designed PCB providing power management, signal routing, and peripheral integration.
 
-2. Start production server:
+4. **Application Layer (UI/UX)**  
+   User interface for system monitoring, control, and configuration  
+   *(Completed – pending upload to repository)*
 
-```bash
-npm run start
-```
+5. **Mechanical Design Layer**  
+   SolidWorks-designed casing for protection, mounting, and usability  
+   *(Completed – pending upload to repository)*
 
-## Lint
+---
 
-```bash
-npm run lint
-```
+## Technologies & Tools 🛠️  
 
-## Environment / Database Notes
+- **AI / ML:** Python, machine learning libraries  
+- **Embedded Firmware:** C / C++  
+- **PCB Design:** KiCad  
+- **UI / UX Application:** Application-based monitoring & control *(completed)*  
+- **Mechanical Design:** SolidWorks *(completed)*  
+- **Version Control:** Git & GitHub  
 
-This project includes Prisma config (`prisma/schema.prisma`) with SQLite datasource.
+---
 
-If you plan to use Prisma features, copy `.env.example` to `.env` (or create `.env`) with:
+## Development Status 🚧  
 
-```env
-DATABASE_URL="file:./db/custom.db"
-```
+| Module | Status |
+|------|-------|
+| AI / ML | Implemented |
+| Firmware | Implemented |
+| PCB Design | Prototype completed |
+| System Integration | Completed |
+| UI / UX Application | Completed |
+| Mechanical Casing | Completed |
 
-Then run:
+---
 
-```bash
-npm run db:generate
-npm run db:push
-```
+## Why This Project Matters 💡  
+This project demonstrates a **full autonomous system engineering pipeline**, covering:
 
-## Key Structure
+- Multidisciplinary technical depth  
+- Hardware–software co-design  
+- Leadership and system ownership  
+- Product-oriented engineering mindset  
 
-- `src/app/page.tsx`: Main IRIS landing page UI and animations
-- `src/app/api/route.ts`: Example API endpoint
-- `public/upload/`: Public media assets used by the page
-- `prisma/schema.prisma`: Database schema
+It reflects the skills required for **industry-level autonomous systems, robotics, and embedded product development**.
 
-## Ready To Push Checklist
+---
 
-- `npm install` succeeds
-- `npm run lint` passes
-- `npm run build` succeeds
-- `npm run start` launches successfully
+## Future Enhancements 🔮  
+- PCB revision based on extended testing and optimization  
+- Performance tuning of AI models  
+- System robustness and reliability testing  
+- Deployment-focused refinements  
+
+---
+
+## Acknowledgements  
+This project was developed as a collaborative team effort, with clearly defined roles and shared responsibility for successful system delivery.
+
+--- 
