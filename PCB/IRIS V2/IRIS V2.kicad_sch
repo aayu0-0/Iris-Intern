@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09432e69-3815-494d-a1cb-cc5c07609725")
+	(paper "A4")
+	(title_block
+		(title "MAIN SHEET")
+		(date "01-01-2026")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 12.7 12.7)
+		(size 97.79 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 66 51 1.0000)
+		)
+		(uuid "2e3f9e0d-9bfc-4ce4-9bd7-45360d853204")
+		(property "Sheetname" "5V_PWR"
+			(at 12.7 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_PWR.kicad_sch"
+			(at 12.7 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IRIS V2"
+				(path "/09432e69-3815-494d-a1cb-cc5c07609725"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 12.7)
+		(size 92.71 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 62 109 255 1.0000)
+		)
+		(uuid "45895381-b332-4eff-bb9b-cf0310849c62")
+		(property "Sheetname" "MCU"
+			(at 110.49 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 110.49 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IRIS V2"
+				(path "/09432e69-3815-494d-a1cb-cc5c07609725"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 12.7)
+		(size 81.28 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 254 255 78 1.0000)
+		)
+		(uuid "a0fc50e9-e898-4c39-804e-25d5a4023afc")
+		(property "Sheetname" "Sensors"
+			(at 203.2 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 203.2 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IRIS V2"
+				(path "/09432e69-3815-494d-a1cb-cc5c07609725"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
