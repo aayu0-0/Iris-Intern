@@ -9,7 +9,7 @@ https://www.figma.com/design/ULPZqA2Iifh91T31qgN9us/smart-glass-app-draft-1?node
 - [Login Screen](login.png)
 - [Home Page](home%20page.png)
 - [Account Details](account%20detail.png)
-- - [Voice Chat Screen](./voice%20chat.png)
+- [Voice Chat Screen](./voice%20chat.png)
 - [Home Assistant Screen](./homeassistant.png)
 - [Settings Page](setting%20page.png)
 - [Logout Page](log%20out%20page.png)
